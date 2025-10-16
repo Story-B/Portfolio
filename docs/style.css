@@ -1,8 +1,8 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    background: #99ccff;
+    font-family:"Lucida Console", "Courier New", monospace;;
 }
 
 div.side-by-side {
@@ -17,4 +17,23 @@ img {
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+}
+figcaption {
+  font-size: 20px; 
+  color: #000000;     
+  font-style: italic;
+  
+  
+}
+.side-by-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  flex-wrap: wrap; 
+}
+
+.side-by-side figure {
+  text-align: left;
+  max-width: 400px;
 }
