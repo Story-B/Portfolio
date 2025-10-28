@@ -37,3 +37,46 @@ figcaption {
   text-align: left;
   max-width: 400px;
 }
+.intro {
+  text-align: left;
+  max-width: 700px;
+  margin: 40px auto 40px 60px;
+}
+
+.about-img {
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.intro h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  display: inline-block;
+  text-align: left;
+}
+.navinfo {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  max-width: 700px;
+  margin: 30px auto 30px 60px;
+  text-align: left;
+}
+
