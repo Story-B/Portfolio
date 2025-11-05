@@ -154,7 +154,18 @@ figcaption {   /* pic captions*/
     font-style: italic;
     margin-top: 8px;
 }
-
-
+.essay {
+  background-color: #ffffff;
+  border: 5px double #003366;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 20px;
+}
+.essay p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
 
 
