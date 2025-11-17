@@ -198,20 +198,46 @@ figcaption {   /* pic captions*/
   color: #333;
  }
 
-body#corpus-page h3,
-body#corpus-page h4 {
-  font-size: 2em;        
-  text-align: center;   
-  color: #000000;        
+ /* Corpus page */
+#corpus-page h3,
+#corpus-page h4 {
+  font-size: 2em;
+  text-align: center;
+  color: #000;
   margin-top: 40px;
   margin-bottom: 10px;
 }
-#corpus-page .img-row img {
-  transition: transform 0.3s ease;
-  
+
+
+
+
+
+
+
+
+
+
+
+#corpus-page img {
+  height: auto !important;
+  max-height: none !important;
+  width: 100%;
+  max-width: 900px;
 }
 
-#corpus-page .img-row img:hover {
-  transform: scale(1.4); 
- 
+
+#corpus-page .side-by-side {
+  display: flex;
+  flex-wrap: nowrap !important;
+  gap: 20px;
+  justify-content: center;
 }
+
+
+#corpus-page .side-by-side figure {
+  width: 50%;
+  max-width: none !important;
+  text-align: center !important; 
+}
+
+
