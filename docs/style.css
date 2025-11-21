@@ -228,7 +228,7 @@ figcaption {   /* pic captions*/
 
 #corpus-page .side-by-side {
   display: flex;
-  flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;  /* overides global rules */
   gap: 20px;
   justify-content: center;
 }
