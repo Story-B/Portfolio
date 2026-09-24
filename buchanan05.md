@@ -1,9 +1,9 @@
-# Punctuation Guide
+# punction guide
 
-| Mark | Name | Use | Example |
-| --- | --- | --- | --- |
-| `< >` | Angle brackets | Surround XML tags, which can include attributes. | `<root/>` |
-| `#` | Pound sign | Starts a comment in .rnc files. | `# rnc comment` |
-| `~` | Tilde | Represents your home directory in the shell. Use it with `cd` to go there. | `cd ~` |
-| `" "` | Quotation marks | Surround attribute values in XML. | `color="blue"` |
-| `&&` | Double ampersands | Runs consecutive commands in shell, if the first one is successful | `git add ... && git commit ...|
+|mark|name|use|example|
+|---|---|---|---|
+|`<...>`|Angle Brackets|encloses elements and attributes|`<root/>`|
+|`#`|pound sign|creates a comment in .rnc files|`#rnc comment`|
+|`~`|tilde|takes you to your home directory in shell terminals|`cd ~`|
+|`""`|Quoatation marks|surrounds attribute values in .xml|`attribute = "value"`|
+|`&&`|Double ampersands|run two consecutive commands in shell if the first one succeeds|`git add ... && git commit -m ...`|
