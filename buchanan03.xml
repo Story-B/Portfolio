@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../digit110/schema/buchanan03.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
  <head Id="Shrewsbury Cakes"> Shrewsbury Cakes: Original Recipe.</head>
 
