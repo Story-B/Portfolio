@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <p><lg><l><persName>Booker T.</persName></l>
+         <lg><l><persName>Booker T.</persName></l>
             <l>Was a practical man.</l>
           <l>  He said, Till the soil</l>
             <l>And learn from the land.</l>
@@ -67,7 +67,7 @@
             <l>Your fate is here</l>
           <l>  And not afar,</l>
            <l> So let down your bucket</l>
-           <l> Where you are.</l></lg> </p>
+           <l> Where you are.</l></lg> 
       </body>
   </text>
 </TEI>
